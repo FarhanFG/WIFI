@@ -1,0 +1,7 @@
+# Python Streamlit app (legacy) — use the React app instead:
+#   npm run dev
+# Phone: http://<your-ip>:5173
+
+streamlit>=1.28.0
+flask>=3.0.0
+flask-cors>=4.0.0

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Build
+client/dist/
+dist/
+
+# Uploaded user files (never commit)
+oupload/
+zips/
+.upload_tmp/
+
+# Logs / OS
+*.log
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Env / local
+.env
+.env.*
+!.env.example
+
+# Python leftovers
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
+server/*.gif
